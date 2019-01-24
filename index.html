@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BLG Product Registry</title>
+    <link rel="stylesheet" href="libraries/semantic-dist/semantic.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="libraries/jquery.min.js"> </script>
+    <script src="libraries/babel-standalone.js"></script>
+    <script src="libraries/react.js"></script>
+    <script src="libraries/react-dom.js"></script>
+    <script src="libraries/loadBuildArifacts.js"></script>
+    <script src="libraries/web3.version.getNetwork.js"></script>
+    <script src="libraries/web3.min.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="main ui text container">
+      <h1 class="ui dividing centered header">Product Registry</h1>
+      <div id="content"></div>
+    </div>
+    <script src="seed.js"></script>
+    <script
+      type="text/babel"
+      data-plugins="transform-class-properties"
+      src="app.js"
+    ></script>
+  </body>
+</html>

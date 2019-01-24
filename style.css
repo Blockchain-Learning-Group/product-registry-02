@@ -1,0 +1,35 @@
+/* Styles go here */
+
+#content {
+  margin-bottom: 4em;
+}
+
+.ui.dividing.header {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+i.icon {
+  margin: 0;
+}
+
+label, input {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 125px;
+}
+
+label {
+    color: #2D2D2D;
+    font-size: 15px;
+}
+
+form, input {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+form {
+    width: 300px;
+}

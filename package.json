@@ -1,0 +1,13 @@
+{
+  "name": "product-registry",
+  "version": "1.0.0",
+  "author": "Blockchain Learning Group",
+  "scripts": {
+    "start": "npm run server",
+    "server": "live-server --host=localhost --port=3000 --middleware=./libraries/disable-browser-cache.js"
+  },
+  "devDependencies": {
+    "live-server": "https://github.com/acco/live-server/tarball/master"
+  },
+  "dependencies": {}
+}
