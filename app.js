@@ -70,8 +70,8 @@ class ProductList extends React.Component {
         id: i,
         title: product[0],
         description: product[1],
-        productImageUrl: product[2],
-        submitterAvatarUrl: product[3],
+        submitterAvatarUrl: product[2],
+        productImageUrl: product[3],
         votes: product[4].toNumber(),
       });
     }
